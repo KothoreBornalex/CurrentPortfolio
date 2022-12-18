@@ -1,0 +1,65 @@
+
+
+
+.leFooter{
+    background-color: rgb(43, 60, 86); 
+    min-height: 1vw;
+    min-width: 100%;
+    justify-content: end;
+
+}
+
+.leFooterBlack{
+    background-color: rgb(18, 19, 21); 
+    min-height: 1vw;
+    min-width: 100%;
+    justify-content: end;
+
+}
+
+.OrderGeometry7{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+
+}
+
+.generalParameters3{
+    background-color: rgba(204, 204, 204, 0.831); 
+  }
+
+.generalParameters3Black{
+    background-color: rgb(204, 204, 204); 
+  }
+
+
+
+.leFooter h2{
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(203, 214, 230); 
+    font-weight: lighter;
+    font-weight: 900;
+    font-size: 130%;
+    padding-left: 6%;
+    justify-content: left;
+
+
+    position: relative;
+    animation-name: TextAnimationPresentation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes TextAnimationPresentation {
+    0%   {left:0%;}
+    100% {left:-4%;}
+}
+
+
+
+.OrderGeometry8{
+    display: flex;
+    list-style-type: none;
+    transform: rotate(180deg);
+}

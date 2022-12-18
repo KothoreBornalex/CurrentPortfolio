@@ -1,0 +1,605 @@
+#skillsPart{
+  /*background: url("img/Working.jpg");*/
+  background: url("img/OrdiChill.jpeg");
+  background-size: 100vw;
+  background-position-y: 70%;
+  background-position-x: -10px;
+  background-repeat: none;
+
+}
+
+
+
+
+#skillsList{
+  display: flex;
+  flex-direction: column;
+}
+
+#skillsList   li a{
+  text-decoration: none;
+}
+
+
+
+.OrderGeometry5{
+  display: flex;
+  list-style-type: none;
+  transform: rotate(180deg);
+}
+
+.OrderGeometry6{
+  display: flex;
+  list-style-type: none;
+}
+
+.generalParameters2{
+  background-color: rgba(36, 38, 41, 0.436);
+}
+
+
+.whiteGeometryG5{
+
+  min-height: 0.5vw;
+  min-width: 8vw;
+  height: 0.6vw;
+
+  position: relative;
+  animation-name: whiteGeometryG;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryG {
+  0%   {left:0vw;}
+  100% {left:10vw;}
+}
+
+
+
+
+
+#whiteGeometryH3{
+  min-height: 0.5vw;
+  min-width: 2vw;
+  height: 0.6vw;
+
+
+  position: relative;
+  animation-name: whiteGeometryH;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryH {
+  0%   {left:10vw;}
+  100% {left:15vw;}
+}
+
+
+
+
+
+.whiteGeometryI1{
+  min-height: 0.5vw;
+  width: 6vw;
+  height: 0.6vw;
+
+
+  position: relative;
+  animation-name: whiteGeometryI;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryI {
+  0%   {left:15vw;}
+  100% {left:28vw;}
+}
+
+
+
+
+.whiteGeometryJ6{
+  min-height: 0.5vw;
+  width: 10vw;
+  height: 0.6vw;
+
+
+  position: relative;
+  animation-name: whiteGeometryJ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryJ {
+  0%   {left:28vw;}
+  100% {left:37vw;}
+}
+
+
+
+
+.whiteGeometryK2{
+  min-height: 0.5vw;
+  width: 4vw;
+  height: 0.6vw;
+
+
+  position: relative;
+  animation-name: whiteGeometryK;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryK {
+  0%   {left:37vw;}
+  100% {left:58vw;}
+}
+
+
+
+.whiteGeometryL4{
+  min-height: 0.5vw;
+  min-width: 2vw;
+  height: 0.6vw;
+
+
+  position: relative;
+  animation-name: whiteGeometryL;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryL {
+  0%   {left:58vw;}
+  100% {left:67vw;}
+}
+
+
+.skillButton1 {
+                                            
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 350%;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    width: auto;
+    height: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+
+    /*background-color: rgba(183, 197, 215, 0.253);*/
+    /*background-color: rgba(36, 38, 41, 0.76);*/
+    background-color: rgba(36, 38, 41, 0.436);
+    /*background-color: rgba(21, 34, 54, 0.76);*/
+    /*background-color: rgba(114, 149, 195, 0.215);*/
+
+    color: WHITE;
+}
+
+
+
+  .skillButton1:hover {
+    background-color: rgba(0, 0, 0, 0); 
+    color: white; 
+    
+    position: relative;
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+    
+  }
+
+  @keyframes buttonAnimation {
+    0%   {right:5.3vw;}
+    100% {right:0vw;}
+  }
+
+
+
+
+  @media all and (max-device-width: 540px){
+
+    .skillButton1 {
+                                            
+      border: none;
+      color: white;
+      padding: 0px 32px;
+      text-align: left;
+      text-decoration: none;
+      font-size: 250%;
+      transition-duration: 0.6s;
+      cursor: pointer;
+      width: auto;
+      height: 100%;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 600;
+  }
+
+
+  #skillsPart{
+    background: url("img/Working.jpg");
+    background-size: 300vw;
+    background-position-y: 70%;
+    background-position-x: -800px;
+    background-repeat: none;
+  
+  }
+
+
+
+
+
+
+
+
+
+  .whiteGeometryG5{
+
+    min-height: 3.5vw;
+    min-width: 8vw;
+    height: 5vw;
+  }
+
+  
+  
+  
+  
+  
+  #whiteGeometryH3{
+    min-height: 2.5vw;
+    min-width: 2vw;
+    height: 0.6vw;
+  
+  }
+
+  
+  
+  
+  .whiteGeometryI1{
+    min-height: 2.5vw;
+    width: 6vw;
+    height: 0.6vw;
+  
+  }
+
+  
+  
+  .whiteGeometryJ6{
+    min-height: 2.5vw;
+    width: 10vw;
+    height: 0.6vw;
+  
+
+  }
+
+  
+  
+  .whiteGeometryK2{
+    min-height: 2.5vw;
+    width: 4vw;
+    height: 0.6vw;
+  
+
+  }
+
+  
+  
+  .whiteGeometryL4{
+    min-height: 2.5vw;
+    min-width: 2vw;
+    height: 0.6vw; 
+  }
+
+  
+
+}
+
+
+
+
+
+
+
+  @media all and (max-device-width: 412px){
+
+    .skillButton1 {
+                                            
+      border: none;
+      color: white;
+      padding: 0px 32px;
+      text-align: left;
+      text-decoration: none;
+      font-size: 250%;
+      transition-duration: 0.6s;
+      cursor: pointer;
+      width: auto;
+      height: 100%;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 600;
+  }
+
+
+  #skillsPart{
+    background: url("img/Working.jpg");
+    background-size: 500vw;
+    background-position-y: 70%;
+    background-position-x: -800px;
+    background-repeat: none;
+  
+  }
+
+
+
+
+
+
+
+
+
+  .whiteGeometryG5{
+
+    min-height: 3.5vw;
+    min-width: 8vw;
+    height: 5vw;
+  }
+
+  
+  
+  
+  
+  
+  #whiteGeometryH3{
+    min-height: 3.5vw;
+    min-width: 2vw;
+    height: 0.6vw;
+  
+  }
+
+  
+  
+  
+  .whiteGeometryI1{
+    min-height: 3.5vw;
+    width: 6vw;
+    height: 0.6vw;
+  
+  }
+
+  
+  
+  .whiteGeometryJ6{
+    min-height: 3.5vw;
+    width: 10vw;
+    height: 0.6vw;
+  
+
+  }
+
+  
+  
+  .whiteGeometryK2{
+    min-height: 3.5vw;
+    width: 4vw;
+    height: 0.6vw;
+  
+
+  }
+
+  
+  
+  .whiteGeometryL4{
+    min-height: 3.5vw;
+    min-width: 2vw;
+    height: 0.6vw; 
+  }
+
+  
+
+}
+
+
+
+
+
+
+@media all and (max-device-width: 390px){
+
+  .skillButton1 {
+                                          
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 230%;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    width: auto;
+    height: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+
+#skillsPart{
+  background: url("img/Working.jpg");
+  background-size: 500vw;
+  background-position-y: 70%;
+  background-position-x: -800px;
+  background-repeat: none;
+
+}
+
+
+
+
+
+
+
+.whiteGeometryG5{
+
+  min-height: 3.5vw;
+  min-width: 8vw;
+  height: 5vw;
+}
+
+
+
+
+
+
+#whiteGeometryH3{
+  min-height: 3.5vw;
+  min-width: 2vw;
+  height: 0.6vw;
+
+}
+
+
+
+
+.whiteGeometryI1{
+  min-height: 3.5vw;
+  width: 6vw;
+  height: 0.6vw;
+
+}
+
+
+
+.whiteGeometryJ6{
+  min-height: 3.5vw;
+  width: 10vw;
+  height: 0.6vw;
+
+
+}
+
+
+
+.whiteGeometryK2{
+  min-height: 3.5vw;
+  width: 4vw;
+  height: 0.6vw;
+
+
+}
+
+
+
+.whiteGeometryL4{
+  min-height: 3.5vw;
+  min-width: 2vw;
+  height: 0.6vw; 
+}
+
+
+
+}
+
+
+
+
+
+@media all and (max-device-width: 280px){
+
+  .skillButton1 {
+                                          
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 150%;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    width: auto;
+    height: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+
+#skillsPart{
+  background: url("img/Working.jpg");
+  background-size: 500vw;
+  background-position-y: 70%;
+  background-position-x: -800px;
+  background-repeat: none;
+
+}
+
+
+
+
+
+.whiteGeometryG5{
+
+  min-height: 2.8vw;
+  min-width: 8vw;
+}
+
+
+
+
+
+
+#whiteGeometryH3{
+  min-height: 2.8vw;
+  min-width: 2vw;
+
+}
+
+
+
+
+.whiteGeometryI1{
+  min-height: 2.8vw;
+  width: 6vw;
+
+}
+
+
+
+.whiteGeometryJ6{
+  min-height: 2.8vw;
+  width: 10vw;
+
+
+}
+
+
+
+.whiteGeometryK2{
+  min-height: 2.8vw;
+  width: 4vw;
+
+
+}
+
+
+
+.whiteGeometryL4{
+  min-height: 2.8vw;
+  min-width: 2vw;
+}
+
+
+
+}
+
+
+
+
