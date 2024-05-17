@@ -1,7 +1,9 @@
-.headerID{
-    background-color: rgb(44, 60, 84); 
+.headerID {
+    background-color: rgb(44, 60, 84);
     width: 100%;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .blackHeaderID{

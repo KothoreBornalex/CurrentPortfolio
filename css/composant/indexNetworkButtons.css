@@ -1,0 +1,300 @@
+.networkButtons {
+    display: flex;
+    gap: 2vw;
+    padding-left: 10%;
+    padding-top: 0vh;
+}
+
+@keyframes networkButtonsAnimation {
+    0%   {left:0vw; top:0vh;}
+    25%  {left:2vw; top:2vh;}
+    50%  {left:2vw; top:0vh;}
+    75%  {left:0vw; top:2vh;}
+    100% {left:0vw; top:0vh;}
+  }
+
+#Phone{
+    
+    height: 4vh;
+    width: 2vw;
+    transition: 0.4s;
+    position: relative;
+    animation-name: networkButtonsAnimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+#Phone:hover{
+    transform:rotate(25deg);
+}
+
+
+
+#Mail{
+    
+    height: 3.5vh;
+    width: 2.25vw;
+    transition: 0.4s;
+    position: relative;
+    animation-name: networkButtonsAnimation;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#Mail:hover{
+    transform:rotate(25deg);
+}
+
+
+
+#Linkedin{
+    
+    height: 5.25vh;
+    width: 3vw;
+    transition: 0.4s;
+    margin-top: -10%;
+    position: relative;
+    animation-name: networkButtonsAnimation;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#Linkedin:hover{
+    
+    transform: rotate(25deg);
+}
+
+
+
+
+#Youtube{
+    
+    height: 3.5vh;
+    width: 2.25vw;
+    transition: 0.4s;
+    position: relative;
+    animation-name: networkButtonsAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#Youtube:hover{
+    transform:rotate(25deg);
+}
+
+
+
+
+#Instagram{
+    
+    height: 5vh;
+    width:2.5vw;
+    transition: 0.4s;
+    margin-top: -10%;
+    position: relative;
+    animation-name: networkButtonsAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+#Instagram:hover {
+    transform: rotate(25deg);
+}
+
+
+
+@media all and (max-device-width: 1280px){
+
+
+    #Phone{
+    
+        height: 4vh;
+        width: 2.3vw;
+    }
+    
+    
+    #Mail{
+        
+        height: 3.2vh;
+        width: 2.5vw;
+    }
+    
+    
+    
+    
+    #Linkedin{
+        
+        height: 4.25vh;
+        width: 3vw;
+    }
+    
+    
+    
+    #Youtube{
+        
+        height: 3.5vh;
+        width: 2.5vw;
+    }
+    
+    
+    #Instagram{
+        
+        height: 5vh;
+        width:2.9vw;
+    }
+
+}
+
+
+
+@media all and (max-device-width: 540px){
+
+    .networkButtons {
+        display: flex;
+        gap: 8vw;
+        padding-left: 10%;
+    }
+
+    #Phone{
+    
+        height: 3vh;
+        width: 4vw;
+    }
+    
+    
+    #Mail{
+        
+        height: 3vh;
+        width: 6vw;
+    }
+    
+    
+    
+    
+    #Linkedin{
+        
+        height: 5vh;
+        width: 8vw;
+    }
+    
+    
+    
+    #Youtube{
+        
+        height: 3.5vh;
+        width: 6vw;
+    }
+    
+    
+    #Instagram{
+        
+        height: 4.5vh;
+        width:6.5vw;
+    }
+
+}
+
+@media all and (max-device-width: 412px){
+
+
+    .networkButtons {
+        display: flex;
+        gap: 8vw;
+        padding-left: 10%;
+    }
+
+    #Phone{
+    
+        height: 4vh;
+        width: 7vw;
+    }
+    
+    
+    #Mail{
+        
+        height: 3.2vh;
+        width: 8vw;
+    }
+    
+    
+    
+    
+    #Linkedin{
+        
+        height: 5vh;
+        width: 10.5vw;
+    }
+    
+    
+    
+    #Youtube{
+        
+        height: 3.5vh;
+        width: 9vw;
+    }
+    
+    
+    #Instagram{
+        
+        height: 5vh;
+        width:10vw;
+    }
+
+}
+
+
+
+
+@media all and (max-device-width: 280px){
+
+
+    .networkButtons {
+        display: flex;
+        gap: 8vw;
+        padding-left: 10%;
+    }
+
+    #Phone{
+    
+        height: 4vh;
+        width: 8vw;
+    }
+    
+    
+    #Mail{
+        
+        height: 3.2vh;
+        width: 9vw;
+    }
+    
+    
+    
+    
+    #Linkedin{
+        
+        height: 5vh;
+        width: 10.5vw;
+    }
+    
+    
+    
+    #Youtube{
+        
+        height: 3.5vh;
+        width: 10vw;
+    }
+    
+    
+    #Instagram{
+        
+        height: 5vh;
+        width:11vw;
+    }
+
+}

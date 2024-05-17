@@ -1,0 +1,623 @@
+
+
+
+
+.galeryImage {
+    background-color: rgb(30, 39, 63);
+    width: 100%;
+    height: 100%;
+    padding-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 6vh;
+    padding-bottom: 6vh;
+}
+
+.galeryImageBlack{
+
+  background-color: rgb(18, 19, 21); 
+  width: 100%;
+  height: 85vh;
+}
+
+.OrderGeometry3{
+    width: 100%;
+    display: flex;
+    padding-bottom: 3vh;
+    list-style-type: none;
+
+}
+
+.OrderGeometry4{
+    display: flex;
+    padding-top: 3vh; 
+    list-style-type: none;
+}
+
+.generalParametersGalery{
+  background-color: rgba(183, 197, 215, 0.253);
+}
+
+
+#BarrTest{
+    display: flex;
+}
+
+
+.PageTitleSection {
+    display: flex;
+    gap: 2.7vw;
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+
+    background-color: rgb(36, 46, 71);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+}
+
+
+.imagesBarr {
+    display: flex;
+    gap: 2.7vw;
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+    background-color: rgb(36, 46, 71);
+    padding-bottom: 6vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+
+
+
+
+
+.ProjectVisuals {
+    transition-duration: 0.3s;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 6vh;
+}
+
+.VideoBlock {
+    width: 17vw;
+    height: 22vh;
+}
+
+#RightVideo {
+    width: 45vw;
+    height: 55vh;
+}
+
+
+.ExplanationColumn {
+    transition-duration: 0.3s;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 6vh;
+}
+
+.ExplanationColumn:hover {
+    margin-top: 3vh;
+}
+
+.cover-image-wrap,
+.details-wrap {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+}
+
+.cover_img_loaded {
+    width: 17vw;
+    height: 22vh;
+}
+.details-wrap {
+    background-color: rgb(82, 100, 128);
+    min-height: 0.5vw;
+    width: 17vw;
+    height: 40vh;
+    position: relative;
+    font-size: 3vh;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+.details-inner {
+    transition-duration: 0.3s;
+    background-color: rgba(43, 60, 86, 1);
+    width: 17vw;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+.details-inner:hover {
+    background-color: rgba(43, 60, 86, 0.25);
+}
+
+.ProjectButtonTitle {
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+}
+
+.ProjectButtonData, .ProjectButtonSkills {
+    color: rgb(200, 200, 200);
+    font-size: 2.5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+#whiteGeometryA {
+    min-height: 0.5vw;
+    min-width: 8vw;
+    position: relative;
+    animation-name: whiteGeometryA;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes whiteGeometryA {
+    0%   {left:0vw;}
+    100% {left:10vw;}
+  }
+
+
+
+
+
+  #whiteGeometryB{
+    min-height: 0.5vw;
+    min-width: 2vw;
+
+    position: relative;
+    animation-name: whiteGeometryB;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryB {
+    0%   {left:10vw;}
+    100% {left:15vw;}
+  }
+
+
+
+
+
+  #whiteGeometryC{
+    min-height: 0.5vw;
+    width: 6vw;
+
+    position: relative;
+    animation-name: whiteGeometryC;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryC {
+    0%   {left:15vw;}
+    100% {left:28vw;}
+  }
+
+
+
+
+  #whiteGeometryD{
+    min-height: 0.5vw;
+    width: 10vw;
+
+    position: relative;
+    animation-name: whiteGeometryD;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryD {
+    0%   {left:28vw;}
+    100% {left:37vw;}
+  }
+
+
+
+
+  #whiteGeometryE{
+    min-height: 0.5vw;
+    width: 4vw;
+
+    position: relative;
+    animation-name: whiteGeometryE;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryE {
+    0%   {left:37vw;}
+    100% {left:47vw;}
+  }
+
+
+
+  #whiteGeometryF{
+    min-height: 0.5vw;
+    min-width: 2vw;
+
+    position: relative;
+    animation-name: whiteGeometryF;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+
+
+@keyframes whiteGeometryF {
+    0%   {left:47vw;}
+    100% {left:67vw;}
+  }
+
+
+
+
+
+
+
+
+  #whiteGeometryG{
+
+    min-height: 0.5vw;
+    min-width: 8vw;
+
+    position: relative;
+    animation-name: whiteGeometryG;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+
+
+@keyframes whiteGeometryG {
+    0%   {left:0vw;}
+    100% {left:10vw;}
+  }
+
+
+
+  #whiteGeometryH{
+    min-height: 0.5vw;
+    min-width: 2vw;
+
+    position: relative;
+    animation-name: whiteGeometryH;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+
+@keyframes whiteGeometryH {
+    0%   {left:10vw;}
+    100% {left:15vw;}
+  }
+
+
+
+  #whiteGeometryI{
+    min-height: 0.5vw;
+    width: 6vw;
+
+    position: relative;
+    animation-name: whiteGeometryI;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryI {
+    0%   {left:15vw;}
+    100% {left:28vw;}
+  }
+
+
+
+
+  #whiteGeometryJ{
+    min-height: 0.5vw;
+    width: 10vw;
+
+    position: relative;
+    animation-name: whiteGeometryJ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryJ {
+    0%   {left:28vw;}
+    100% {left:37vw;}
+  }
+
+
+
+
+  #whiteGeometryK{
+    min-height: 0.5vw;
+    width: 4vw;
+
+    position: relative;
+    animation-name: whiteGeometryK;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryK {
+    0%   {left:37vw;}
+    100% {left:47vw;}
+  }
+
+
+
+  #whiteGeometryL{
+    min-height: 0.5vw;
+    min-width: 2vw;
+
+    position: relative;
+    animation-name: whiteGeometryL;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+
+@keyframes whiteGeometryL {
+    0%   {left:47vw;}
+    100% {left:67vw;}
+  }
+
+
+
+
+
+  @media all and (max-device-width: 540px){
+
+    .imagesBarr{
+      display: flex;
+      flex-direction: column;
+      gap: 4vw;
+    }
+
+    .imagesBarr2{
+      display: flex;
+      flex-direction: column;
+      gap: 8vw;
+      justify-content: center;
+    }
+
+    
+
+
+    #image1{    
+      width: 90vw;
+      height: 51vw;
+      padding-left: 5vw;
+  }
+  
+  
+    #image2{
+      width: 90vw;
+      height: 51vw;
+      padding-left: 4.5vw;
+  }
+  
+  
+  
+    #image3{
+      width: 84vw;
+      height: 51vw;
+      padding-left: 6.5vw;
+  }
+
+
+  .galeryImage{
+
+    height: 129.2vh;
+    
+}
+
+
+
+}
+@media all and (max-device-width: 1280px){
+
+  .galeryImage{
+    height: 73vh;
+}
+
+}
+
+  @media all and (max-device-width: 412px){
+
+      .imagesBarr{
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+      }
+
+      .imagesBarr2{
+        display: flex;
+        flex-direction: column;
+        gap: 8vw;
+        justify-content: center;
+      }
+
+
+      #image1{    
+        width: 90vw;
+        height: 51vw;
+        padding-left: 5vw;
+    }
+
+    .IB_CLASS1 {                  
+
+      font-size: 4vh;
+      background-size: 88vw;
+      background-position-y: 50%;
+    }
+    
+    
+      #image2{
+        width: 90vw;
+        height: 51vw;
+        padding-left: 4.5vw;
+    }
+
+    .IB_CLASS2 {                  
+
+      font-size: 4vh;
+      background-size: 88vw;
+      background-position-y: 50%;
+    }
+    
+    
+    
+      #image3{
+        width: 84vw;
+        height: 51vw;
+        padding-left: 6.5vw;
+    }
+
+    .IB_CLASS3 {                  
+
+      font-size: 4vh;
+      background-size: 88vw;
+      background-position-y: 50%;
+    }
+
+
+
+    #image5{
+      width: 84vw;
+      height: 51vw;
+      padding-left: 6.5vw;
+  }
+
+  .IB_CLASS5 {                  
+
+    font-size: 4vh;
+    background-size: 88vw;
+    background-position-y: 50%;
+  }
+
+
+
+
+    #image6{
+      width: 84vw;
+      height: 51vw;
+      padding-left: 6.5vw;
+  }
+
+  .IB_CLASS6 {                  
+
+    font-size: 4vh;
+    background-size: 88vw;
+    background-position-y: 50%;
+  }
+
+
+    .galeryImage{
+
+      height: 81vh;
+      
+  }
+
+
+
+}
+
+
+
+
+@media all and (max-device-width: 390px){
+
+  .imagesBarr{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+  }
+
+  .imagesBarr2{
+    display: flex;
+    flex-direction: column;
+    gap: 8vw;
+    justify-content: center;
+  }
+
+
+  #image1{    
+    width: 90vw;
+    height: 51vw;
+    padding-left: 5vw;
+}
+
+
+  #image2{
+    width: 90vw;
+    height: 51vw;
+    padding-left: 4.5vw;
+}
+
+
+
+  #image3{
+    width: 84vw;
+    height: 51vw;
+    padding-left: 6.5vw;
+}
+
+
+.galeryImage{
+
+  height: 83vh;
+  
+}
+
+
+
+}
+
+
+
+
+
+
+
