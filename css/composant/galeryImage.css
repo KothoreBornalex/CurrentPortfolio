@@ -2,7 +2,7 @@
 
     background-color: rgb(30, 39, 63); 
     width: 100%;
-    height: 87.6vh;
+    /*height: 100vh;*/
 }
 
 .galeryImageBlack{
@@ -54,8 +54,15 @@
 
 /*.image1 {animation-timing-function: linear;}*/
 
+.ProjectSectionsTitle {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 8vh;
+    margin-top: 3vh;
+}
 
-#image1{    
+#image1 {
     width: 30vw;
     height: 17vw;
     position: relative;
@@ -63,7 +70,6 @@
     animation-duration: 17s;
     animation-iteration-count: infinite;
     cursor: pointer;
-
     filter: drop-shadow(8px 8px 10px rgba(34, 118, 69, 0.486));
     animation-direction: alternate-reverse;
 }
@@ -487,6 +493,7 @@
     text-decoration: none; 
     color: inherit; 
     margin-top: 6vh;
+    margin-bottom: 6vh;
 }
 
 .ProjectButton:hover {
@@ -536,14 +543,15 @@
     color: rgb(255, 255, 255);
     font-size: 4vh;
 }
-
-.ProjectButtonData, .ProjectButtonSkills {
+.ProjectButtonData {
     color: rgb(200, 200, 200);
     font-size: 2.5vh;
 }
 
-
-
+.ProjectButtonSkills {
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+}
 
 
 
