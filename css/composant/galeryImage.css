@@ -38,7 +38,6 @@
 .imagesBarr {
     display: flex;
     gap: 2.7vw;
-    display: flex; /* Use flexbox to align items */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
